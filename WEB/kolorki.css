@@ -1,0 +1,70 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+table {
+  width: 100%;
+}
+.tablecol {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color: #4caf50;
+  color: white;
+}
+.formaa {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+input[type="submit"] {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.ainput {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+::placeholder {
+  text-align: center;
+}
+label {
+  padding: 8px;
+  display: block;
+  width: 100%;
+}
+#labelaa {
+  padding: 8px;
+  display: block;
+  width: 100%;
+  font-family: Arial;
+  background-color: #4caf50;
+}
